@@ -90,6 +90,18 @@
     align-items: center;
 }
 
+.cardBg1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 87.52%), url('images/airplane-wing.jpg') lightgray 50% / cover no-repeat;
+}
+
+.cardBg2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 87.52%), url('images/image 10.png') lightgray 50% / cover no-repeat;
+}
+
+.cardBg3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 87.52%), url('images/image 11.png') lightgray 50% / cover no-repeat;
+}
+
 .cardIcon {
     width: 48.321px;
     height: 48.321px;
@@ -146,7 +158,7 @@
     text-decoration: none;
 }
 
-.locationDescription{
+.locationDescription {
     position: relative;
     background-color: #ffffff;
     width: 394px;
