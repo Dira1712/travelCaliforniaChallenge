@@ -127,6 +127,33 @@
     line-height: normal;
 }
 
+#locationCards {
+    height: 75vh;
+    background: url('images/Hollywood.png') lightgray 50% / cover no-repeat;;
+}
+
+.locationCardsRow {
+    padding-top: 11rem !important;
+}
+
+.locationCardLink {
+    color: #108CFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.locationDescription{
+    position: relative;
+    background-color: #ffffff;
+    width: 394px;
+    height: 213px;
+    flex-shrink: 0;
+}
+
 #footerSection {
     height: 75vh;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.26) 87.52%), url("images/SF-Bridge.png") lightgray 50% / cover no-repeat;
