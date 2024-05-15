@@ -12,6 +12,7 @@
 
 .nav-link {
     color: white;
+    padding: .5rem 5.5rem;
 }
 
 .navbar-brand {
@@ -22,6 +23,15 @@
     font-weight: 400;
     line-height: normal;
 
+}
+
+.nav-item {
+    margin-right: 10px; /* Adjust the value as needed */
+}
+
+/* To avoid affecting the last item */
+.nav-item:last-child {
+    margin-right: 0;
 }
 
 /* .justify-content-center{
