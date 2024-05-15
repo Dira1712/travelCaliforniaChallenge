@@ -92,14 +92,23 @@
 
 .cardBg1 {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 87.52%), url('images/airplane-wing.jpg') lightgray 50% / cover no-repeat;
+    display: flex; flex-direction: column; justify-content: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .cardBg2 {
+    display: flex; flex-direction: column; justify-content: center;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 87.52%), url('images/image 10.png') lightgray 50% / cover no-repeat;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .cardBg3 {
+    display: flex; flex-direction: column; justify-content: center;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 87.52%), url('images/image 11.png') lightgray 50% / cover no-repeat;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .cardIcon {
@@ -111,22 +120,25 @@
 .cardTitle2 {
     color: #FFF;
     font-family: "Open Sans";
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
 
 .cardContent {
     color: #FFF;
     font-family: "Open Sans";
-    font-size: 22px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
 .cardButton {
+    width: 155px;
+    height: 48px;
+    flex-shrink: 0;
     background: #F90;
 }
 
@@ -135,7 +147,7 @@
     font-family: "Open Sans";
     font-size: 22px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
 
