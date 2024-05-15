@@ -1,0 +1,160 @@
+#heroSection {
+    background-image: url("images/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 56vh;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: "Oleo Script Swash Caps";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+/* .justify-content-center{
+   display: flex;
+   justify-content: center;
+}  */
+
+.mx-auto {
+    margin: auto
+}
+
+.heroSectionBottom {
+    margin: auto;
+    object-fit: contain;
+    position: relative;
+    bottom: -8px;
+}
+
+.subHeading1 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.subHeading2 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.chevron {
+    width: 45.761px;
+    height: 23.5px;
+    flex-shrink: 0;
+}
+
+.experienceClass {
+    color: #FFA300;
+    font-family: "Open Sans";
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.experienceTypeClass {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cardStyle {
+    /*filter: brightness(0.2);*/
+    width: 25em;
+    height: 35em;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.cardIcon {
+    width: 48.321px;
+    height: 48.321px;
+    flex-shrink: 0;
+}
+
+.cardTitle2 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cardContent {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardButton {
+    background: #F90;
+}
+
+.cardButtonText {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#footerSection {
+    height: 75vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.26) 87.52%), url("images/SF-Bridge.png") lightgray 50% / cover no-repeat;
+}
+
+.footerForm {
+    margin-left: 224px;
+    margin-right: 464px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.footerMainHeading {
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footerSubHeading {
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
